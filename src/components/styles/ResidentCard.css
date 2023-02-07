@@ -1,0 +1,27 @@
+.residentCard{
+    background-color: #022028;
+    color: azure;
+    border-radius: 15px;
+    /*el overFlow es para darle priorida a la imagen y redondiar*/
+}
+.residentCard_info{
+    padding: 20px;
+}
+.residentCard_name{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.residentCard_list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.residentCard_item{
+    line-height: 20px;
+}
+.residentCard_item span{
+    color: #668fa6;
+    font-weight: bold;
+    display: block;
+
+}
