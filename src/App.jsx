@@ -8,6 +8,7 @@ import ResidentList from './components/ResidentList'
 import ResidentForm from './components/ResidentForm'
 
 
+
 //cuando el numero va a hacer una constante el nombre debe ir con mayuscula
 const RESIDENTS_PERPAGE = 12;
 
@@ -50,7 +51,9 @@ function App() {
 
   return (
     <div className="App">
+
       
+    
       <ResidentForm handleSubmit={handleSubmit} />
       <LocationInfo location={location} />
       <Pagination location={location} RESIDENTS_PERPAGE={RESIDENTS_PERPAGE}  setPage={ setPage} />

@@ -1,0 +1,25 @@
+.residentForm {
+    width: fit-content;
+    gap: 90px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.residentForm_name {
+    width: fit-content;
+    margin: 0 auto;
+    color: #a0fb0e;
+}
+.residentForm_handle {
+    margin:20px;
+}
+.residentForm_input {
+    padding: .15rem .5rem ;
+    border-radius: 9px;
+
+}
+.residentForm_button{
+    background-color: #a0fb0e;
+    border-radius: 9px;
+
+}

@@ -1,0 +1,17 @@
+.location_first{
+    color: #72cb10 ;
+    
+}
+.location_second{
+    color: azure;
+
+}
+.location_item{
+    line-height: 20px;
+
+}
+.location_item span{
+    color: whitesmoke ;
+    font-weight: bold;
+    display: block;
+}
