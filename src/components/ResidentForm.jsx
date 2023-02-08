@@ -13,7 +13,7 @@ const ResidentForm = ({ handleSubmit }) => {
                     <img src="" alt="" />
                 </div>
                 <h1 className="residentForm_name">Rick And Morty</h1>
-                <form className="residentForm_handle" onSubmit={handleSubmit}>
+                <form className="residentForm_handle"  onSubmit={handleSubmit}>
                     <input className="residentForm_input" type="text" id='idLocation' placeholder='type a location id' />
                     <button className="residentForm_button">Search</button>
                 </form>
